@@ -1,0 +1,26 @@
+@import "reset"; // Importar el partial de reset
+
+.lista-navegacion li{
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+ul {
+  background-color: #fffbfb;
+  padding: 10px;
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+
+    a {
+      text-decoration: none;
+      color: #333;
+
+      &:hover {
+        text-decoration: underline blue;
+      }
+    }
+  }
+}

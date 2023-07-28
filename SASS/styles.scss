@@ -1,0 +1,10 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+// Importar los archivos con estilos anidados
+@import "reset";
+@import "lista-navegacion";
+@import "encabezado";
+@import "botones";
+@import "formularios";

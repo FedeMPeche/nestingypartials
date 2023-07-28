@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lista-navegacion li {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+ul {
+  background-color: #fffbfb;
+  padding: 10px;
+}
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: #333;
+}
+ul li a:hover {
+  text-decoration: underline blue;
+}
+
+header {
+  background-color: #070101;
+  color: #fffdfd;
+  padding: 20px;
+}
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #570be6;
+}
+
+.button, .enlace, .secundario, .primario {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.primario {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.secundario {
+  background-color: #ccc;
+}
+
+.enlace {
+  background-color: transparent;
+  border-color: transparent;
+  color: #007bff;
+}
+
+form {
+  padding: 20px;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form input[id=nombre] {
+  background-color: rgb(172, 216, 13);
+}
+form input[id=email] {
+  background-color: rgb(7, 180, 50);
+}
+form input[id=password] {
+  background-color: rgb(7, 168, 160);
+}
+form ::placeholder {
+  color: blue;
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=styles.css.map */

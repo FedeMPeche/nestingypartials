@@ -1,0 +1,25 @@
+header {
+    background-color: #070101;
+    color: #fffdfd;
+    padding: 20px;
+  
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    nav {
+      ul {
+        li {
+          display: inline-block;
+          margin-right: 15px;
+  
+          a {
+            text-decoration: none;
+            color: #570be6;
+          }
+        }
+      }
+    }
+  }
+  

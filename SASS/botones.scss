@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  // Estilo para botón primario
+  .primario {
+    @extend .button;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  // Estilo para botón secundario
+  .secundario {
+    @extend .button;
+    background-color: #ccc;
+  }
+  
+  // Estilo para botón de enlace
+  .enlace {
+    @extend .button;
+    background-color: transparent;
+    border-color: transparent;
+    color: #007bff;
+  }
+  

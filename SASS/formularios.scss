@@ -1,0 +1,38 @@
+
+form {
+    padding: 20px;
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+    // Estilo para campo de texto
+    input[id="nombre"] {
+      background-color: rgb(172, 216, 13);
+    }
+
+    // Estilo para campo de correo electrónico
+    input[id="email"] {
+      background-color: rgb(7, 180, 50);
+    }
+
+    // Estilo para campo de contraseña
+    input[id="password"] {
+      background-color: rgb(7, 168, 160);
+    }
+    ::placeholder {
+      color: blue;
+      font-size: 1em;
+    }
+  }
+  

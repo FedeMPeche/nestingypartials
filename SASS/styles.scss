@@ -2,6 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+//Creacion de Mixins
+@mixin border-radius($radio) {
+  border-radius: $radio;
+}
+
+
 // Importar los archivos con estilos anidados
 @import "reset";
 @import "lista-navegacion";
